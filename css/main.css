@@ -1,3 +1,69 @@
+
 .hidden{
-	visibility: hidden;
+
+	display: none;
+}
+
+body{
+	color: white;
+	background-color: #7fe1fe;
+}
+
+*{
+	font-family: "Century Gothic", Arial, sans-serif;
+}
+
+#container{
+	margin: 0 auto;
+	width: 960px;
+	height: 100%;
+}
+
+.blue{
+	width: 100%;
+	height: auto;
+	background-color: #7fe1fe;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.pink{
+	background-color: #e2303a;
+	width: 100%;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-left:10px;
+}
+
+.aboutLeft{
+	float: left;
+}
+
+.aboutRight{
+	float: right;
+}
+
+#homeTown{
+	overflow: hidden;
+}
+
+#petsLeft{
+	float: left;
+}
+
+#pets{
+	float: left;
+}
+
+#homeTown p{
+	float: right;
+	width: 375px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#kyle{
+	float: right;
 }
