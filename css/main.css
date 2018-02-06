@@ -11,6 +11,7 @@ body{
 
 *{
 	font-family: "Century Gothic", Arial, sans-serif;
+	font-size: 20px;
 }
 
 #container{
@@ -41,6 +42,18 @@ body{
 	float: left;
 }
 
+.aboutLeft p{
+	font-size: 60px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+#boldPink{
+	color: #e2303a;
+	font-weight: bold;
+}
 .aboutRight{
 	float: right;
 }
@@ -49,21 +62,34 @@ body{
 	overflow: hidden;
 }
 
+.para{
+	text-align: right;
+	line-height: 22px;
+}
+
 #petsLeft{
-	float: left;
+	margin-right: 30px;
+	float: right;
+	width: 700px;
 }
 
 #pets{
 	float: left;
 }
 
-#homeTown p{
-	float: right;
-	width: 375px;
-	text-align: center;
-	font-size: 30px;
+#kyle{
+	float: left;
 }
 
-#kyle{
-	float: right;
+#largeText{
+	font-size: 30px;
+	text-align: right;
+	text-transform: uppercase;
 }
+
+#petsLeft p{
+	margin-top: 40px;
+	float: right;
+	width: 400px;
+}
+
