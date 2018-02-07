@@ -20,6 +20,9 @@ body{
 	height: 100%;
 }
 
+.title{
+	font-family: 'Rammetto One', cursive;
+}
 .blue{
 	width: 100%;
 	height: auto;
@@ -42,8 +45,15 @@ body{
 	float: left;
 }
 
+#mainTitle{
+	font-size: 40px;
+	padding-top: 0;
+}
+
 .aboutLeft p{
-	font-size: 60px;
+	width: 500px;
+	font-size: 25px;
+	padding-top: 75px;
 }
 
 .bold{
@@ -79,9 +89,10 @@ body{
 
 #kyle{
 	float: left;
+	margin-bottom: 10px;
 }
 
-#largeText{
+.largeText{
 	font-size: 30px;
 	text-align: right;
 	text-transform: uppercase;
@@ -93,3 +104,109 @@ body{
 	width: 400px;
 }
 
+#hobbiesPara{
+	float: left;
+	width: 450px;
+	margin-top: 40px;
+}
+
+#hobbiesPara p{
+	margin-top: 10px;
+	text-align: left;
+}
+
+.list{
+	margin-left: 20px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+#hobbiesPhoto{
+	float: right;
+	margin-top: 10px;
+}
+
+.funFact{
+	clear:both;
+	text-align: center;
+	background-color: white;
+	color: #e2303a;
+	border-radius: 10px;
+	height: 150px;
+}
+
+.funFact p{
+	padding-top: 20px;
+	margin: 0 auto;
+	text-align: center;
+	width: 700px;
+}
+
+#likes{
+	padding-top: 20px;
+	margin-right: 20px;
+	text-align: right;
+}
+
+#likesPara{
+	float: right;
+	padding-top: 50px;
+}
+
+#likesPara li{
+	text-align: center;
+}
+
+#likesPara p{
+	padding-top: 20px;
+}
+
+#likesImg{
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+#dislikes{
+	clear: both;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+#dislikesPara{
+	float: left;
+}
+
+#dislikes p{
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#dislikes li{
+	text-align: center;
+}
+
+#dislikesImg{
+	float: right;
+	margin-right: 80px;
+}
+
+#endImg{
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+#endPara{
+	float: right;
+	width: 600px;
+	margin-top: 80px;
+
+}
+
+#endPara p{
+	margin-top: 50px;
+	text-align: center;
+	margin-right: 150px;
+}
